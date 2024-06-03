@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+      integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Authentication is Fun</title>
+    <style>
+      body {
+        text-align: center;
+        background-color: rgb(167, 167, 167);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="authForm">
+      <h2>Sign Up or Sign In</h2>
+      <input type="email" placeholder="email" id="userEmail" />
+      <input type="password" placeholder="password" id="userPassword" />
+      <br /><br />
+      <button id="signUpButton">Sign Up</button>
+      <button id="signInButton">Sign In</button>
+    </div>
+
+    <div id="secretContent">
+      <h2>Products Page</h2>
+     
+      <div class="container text-center">
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="Image/1.png" class="rounded" height="200px" width="200px" alt="mah-bag-white">
+                <p class="text-center mt-3 text-black-50"><strong>Nike Airmax "Women" | 8.5 US</strong></p>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-dark text-light" data-bs-toggle="modal"
+                    data-bs-target="#myModal"><strong> See More</strong>
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Nike Airmax "Women" | 8.5 US</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Air for Running
+Run farther. Do it for longer. Built to last with each step, Nike Air Zoom absorbs impact so that you can take the world in strides. Time to outpace your fiercest competition: yourself.
+
+Pictured: AlphaFly 3, Pegasus 41, Air Zoom Maxfly 2 in the Nike Blueprint Pack.
+
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning text-light"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="Image/2.png" class="rounded" height="200px" width="200px" alt="mah-bag-pink">
+                <p class="text-center mt-3 text-black-50"><strong>Nike Team Hustle D</strong></p>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-warning btn-dark text-light" data-bs-toggle="modal"
+                    data-bs-target="#myModal"><strong> See More</strong>
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Nike Team Hustle D</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Air for Running
+Run farther. Do it for longer. Built to last with each step, Nike Air Zoom absorbs impact so that you can take the world in strides. Time to outpace your fiercest competition: yourself.
+
+Pictured: AlphaFly 3, Pegasus 41, Air Zoom Maxfly 2 in the Nike Blueprint Pack.
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning text-light"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="Image/3.png" class="rounded" height="200px" width="200px" alt="mah-bag-green">
+                <p class="text-center mt-3 text-black-50"><strong>Nike Air Force 1 Shadow</strong></p>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-dark text-light" data-bs-toggle="modal"
+                    data-bs-target="#myModal"><strong> See More</strong>
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Nike Air Force 1 Shadow</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Air for Running
+Run farther. Do it for longer. Built to last with each step, Nike Air Zoom absorbs impact so that you can take the world in strides. Time to outpace your fiercest competition: yourself.
+
+Pictured: AlphaFly 3, Pegasus 41, Air Zoom Maxfly 2 in the Nike Blueprint Pack.
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning text-light"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center mt-5">
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="Image/4.png" class="rounded" height="200px" width="200px" alt="mah-bag-yellow">
+                <p class="text-center mt-3 text-black-50"><strong>Nike Dunk Low Retro</strong></p>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-warning btn-dark text-light" data-bs-toggle="modal"
+                    data-bs-target="#myModal"><strong> See More</strong>
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Nike Dunk Low Retro</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Air for Running
+Run farther. Do it for longer. Built to last with each step, Nike Air Zoom absorbs impact so that you can take the world in strides. Time to outpace your fiercest competition: yourself.
+
+Pictured: AlphaFly 3, Pegasus 41, Air Zoom Maxfly 2 in the Nike Blueprint Pack.
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning text-light"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="Image/m613590.jpeg" class="rounded" height="200px" width="200px" alt="mah-bag-black">
+                <p class="text-center mt-3 text-black-50"><strong>Nike Air Force 1 Mid</strong></p>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-warning btn-dark text-light" data-bs-toggle="modal"
+                    data-bs-target="#myModal"><strong> See More</strong>
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Nike Air Force 1 Mid</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Air for Running
+Run farther. Do it for longer. Built to last with each step, Nike Air Zoom absorbs impact so that you can take the world in strides. Time to outpace your fiercest competition: yourself.
+
+Pictured: AlphaFly 3, Pegasus 41, Air Zoom Maxfly 2 in the Nike Blueprint Pack.
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning text-light"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="Image/Nike-Air-Max-200-White-University-Blue-W.webp" class="rounded" height="200px" width="200px" alt="mah-bag-orange">
+                <p class="text-center mt-3 text-black-50"><strong>Nike Air Max 270</strong></p>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-warning btn-dark text-light" data-bs-toggle="modal"
+                    data-bs-target="#myModal"><strong> See More</strong>
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Nike Air Max 270</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Air for Running
+Run farther. Do it for longer. Built to last with each step, Nike Air Zoom absorbs impact so that you can take the world in strides. Time to outpace your fiercest competition: yourself.
+
+Pictured: AlphaFly 3, Pegasus 41, Air Zoom Maxfly 2 in the Nike Blueprint Pack.
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning text-light"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center mt-5">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <img src="Image/7.png" class="rounded" height="200px" width="200px"
+                            alt="mah-bag-yellow">
+                        <p class="text-center mt-3 text-black-50"><strong>Nike Air Max Plus</strong>
+                        </p>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning btn-dark text-light" data-bs-toggle="modal"
+                            data-bs-target="#myModal"><strong> See More</strong>
+                        </button>
+
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nike Air Max Plus</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        Air for Running
+Run farther. Do it for longer. Built to last with each step, Nike Air Zoom absorbs impact so that you can take the world in strides. Time to outpace your fiercest competition: yourself.
+
+Pictured: AlphaFly 3, Pegasus 41, Air Zoom Maxfly 2 in the Nike Blueprint Pack.
+
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-warning text-light"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="Image/5.png" class="rounded" height="200px" width="200px"
+                            alt="mah-bag-snowwhite">
+                        <p class="text-center mt-3 text-black-50"><strong>Nike Waffle Debut</strong>
+                        </p>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning btn-dark text-light" data-bs-toggle="modal"
+                            data-bs-target="#myModal"><strong> See More</strong>
+                        </button>
+
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nike Waffle Debut
+                                        </h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        Air for Running
+Run farther. Do it for longer. Built to last with each step, Nike Air Zoom absorbs impact so that you can take the world in strides. Time to outpace your fiercest competition: yourself.
+
+Pictured: AlphaFly 3, Pegasus 41, Air Zoom Maxfly 2 in the Nike Blueprint Pack.
+
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-warning text-light"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="Image/6.png" class="rounded" height="200px" width="200px"
+                            alt="mah-bag-yelloworange">
+                        <p class="text-center mt-3 text-black-50"><strong>Nike Precision 6</strong>
+                        </p>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning btn-dark text-light" data-bs-toggle="modal"
+                            data-bs-target="#myModal"><strong> See More</strong>
+                        </button>
+
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nike Precision 6
+                                        </h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        Air for Running
+Run farther. Do it for longer. Built to last with each step, Nike Air Zoom absorbs impact so that you can take the world in strides. Time to outpace your fiercest competition: yourself.
+
+Pictured: AlphaFly 3, Pegasus 41, Air Zoom Maxfly 2 in the Nike Blueprint Pack.
+
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-warning text-light"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--footer-->
+                    <footer>
+                        <p class="mt-5"></p>
+                    </footer>
+</body>
+
+      <button id="signOutButton">Sign Out</button>
+    </div>
+
+    <script type="module">
+      //Update the below URL with the appropriate version if necessary.
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+      import {
+        getAuth,
+        createUserWithEmailAndPassword,
+        signInWithEmailAndPassword,
+        onAuthStateChanged,
+        signOut,
+        //Update the below URL with the appropriate version if necessary.
+      } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
+
+      // INSERT YOUR FIREBASE CONFIG OBJECT HERE
+      const firebaseConfig = {
+    apiKey: "AIzaSyClJwa2eTnnRPCfnRQNdTs_N1KUNKRW7S0",
+    authDomain: "authentication-bb998.firebaseapp.com",
+    projectId: "authentication-bb998",
+    storageBucket: "authentication-bb998.appspot.com",
+    messagingSenderId: "863173799893",
+    appId: "1:863173799893:web:a7000717f525e39e2a975c"
+  };
+
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+
+      const userEmail = document.querySelector("#userEmail");
+      const userPassword = document.querySelector("#userPassword");
+      const authForm = document.querySelector("#authForm");
+      const secretContent = document.querySelector("#secretContent");
+      const signUpButton = document.querySelector("#signUpButton");
+      const signInButton = document.querySelector("#signInButton");
+      const signOutButton = document.querySelector("#signOutButton");
+
+      secretContent.style.display = "none";
+
+      const userSignUp = async () => {
+        const signUpEmail = userEmail.value;
+        const signUpPassword = userPassword.value;
+        createUserWithEmailAndPassword(auth, signUpEmail, signUpPassword)
+          .then((userCredential) => {
+            const user = userCredential.user;
+            console.log(user);
+            Swal.fire("Your Account is succesfully created!");
+          })
+          .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorCode + errorMessage);
+          });
+      };
+
+      const userSignIn = async () => {
+        const signInEmail = userEmail.value;
+        const signInPassword = userPassword.value;
+        signInWithEmailAndPassword(auth, signInEmail, signInPassword)
+          .then((userCredential) => {
+            const user = userCredential.user;
+            Swal.fire("You have signed in successfully!");
+          })
+          .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorCode + errorMessage);
+          });
+      };
+
+      const checkAuthState = async () => {
+        onAuthStateChanged(auth, (user) => {
+          if (user) {
+            authForm.style.display = "none";
+            secretContent.style.display = "block";
+          } else {
+            authForm.style.display = "block";
+            secretContent.style.display = "none";
+          }
+        });
+      };
+
+      const userSignOut = async () => {
+        await signOut(auth);
+        Swal.fire("User Logout");
+      };
+
+      checkAuthState();
+
+      signUpButton.addEventListener("click", userSignUp);
+      signInButton.addEventListener("click", userSignIn);
+      signOutButton.addEventListener("click", userSignOut);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
